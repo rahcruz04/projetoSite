@@ -1,15 +1,17 @@
 /* Estilos gerais */
 html {
-    background: rgb(54, 73, 98);
+    background: white;
     color: black;
     font-size: 20px;
     font-family: sans-serif;
     line-height: 1.5;
+    width: 100%;
 }
 
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .page-wrapper {
@@ -33,6 +35,7 @@ body {
     background-color: rgb(236, 12, 12);
     color: #fbfbfb;
     padding: 1em 0;
+    width: 100%;
 }
 
 #tr-intro header h1 {
@@ -93,6 +96,8 @@ body {
 
 
 
+
+
 .explanation{
     width: 60%;
     border-right: rgb(236, 12, 12) 1px ;
@@ -103,6 +108,7 @@ body {
 .footer{
     display: flex;
     justify-content: space-evenly;
+ 
 }
 
 .pilares{
@@ -152,6 +158,7 @@ footer {
     padding: 2em 0;
     background: rgb(236, 12, 12);
     color: #fbfbfb;
+    width: 100%;
  
 }
 
@@ -239,10 +246,12 @@ p {
 }
 
 .container img{
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: px;
     float: left;
     width: 500px;
+    padding-right: 50px;
+    padding-left: 20px;
 }
 
 .container{
@@ -278,7 +287,4 @@ p {
         color: #1f295c;
     }
 
-    
 }
-
-
